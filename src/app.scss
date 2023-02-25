@@ -1,0 +1,20 @@
+.app {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  width: 90%;
+  border: solid red;
+  display: grid;
+  gap: 1rem;
+  grid-template:
+    "user" auto
+    "work" auto
+    "play" auto
+    "study" auto
+    "exercise" auto
+    "social" auto
+    "self-care" auto;
+}

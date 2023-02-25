@@ -1,0 +1,39 @@
+.work {
+  grid-area: work;
+  border: solid orange;
+}
+
+.play {
+  grid-area: play;
+  border: solid blue;
+}
+
+.study {
+  grid-area: study;
+  border: solid palevioletred;
+}
+
+.exercise {
+  grid-area: exercise;
+  border: solid green;
+}
+
+.social {
+  grid-area: social;
+  border: solid blueviolet;
+}
+
+.self-care {
+  grid-area: self-care;
+  border: solid yellow;
+}
+
+.work,
+.play,
+.exercise,
+.social,
+.study,
+.self-care {
+  width: 100%;
+  height: 100px;
+}
