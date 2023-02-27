@@ -6,9 +6,10 @@
 
 .grid-container {
   width: 90%;
+  margin: 1rem 0 3rem 0;
   //border: solid red;
   display: grid;
-  gap: 1rem;
+  grid-gap: 2rem;
   grid-template:
     "user" auto
     "work" auto
