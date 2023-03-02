@@ -73,6 +73,13 @@
     background-color: transparent;
     color: var(--Pale-Blue);
     font-weight: 400;
+    &:hover {
+      color: #fff;
+      cursor: pointer;
+    }
+    &.active {
+      color: #fff;
+    }
   }
   @media screen and (min-width: 1180px) {
     flex-direction: column;
