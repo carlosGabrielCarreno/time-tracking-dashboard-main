@@ -3,7 +3,6 @@
   display: flex;
   justify-content: center;
   height: 100vh;
-  //border: solid;
   height: 100%;
   margin: 1rem 0;
 }
@@ -37,7 +36,6 @@
   .grid-container {
     margin: 1rem auto;
     grid-gap: 2rem;
-    // border: solid red;
     grid-template:
       "user work play study" auto
       "user  exercise social self-care" auto;
